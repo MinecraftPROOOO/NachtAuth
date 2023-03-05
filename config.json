@@ -16,8 +16,8 @@
     },
 
     "azure" : {
-        "client_id": "5882f6ef-24b4-42b2-ab7b-2a3921ed791c",
-        "client_secret": "d6673ad0-7422-4705-83ce-6010721a5c18",
-        "redirect_uri": "https://hypixelskyblockfans.onrender.com/"
+        "client_id": "52ba8d06-6845-4d5c-baf4-e9bef4ee2270",
+        "client_secret": "OSu8Q~zJDBIwP3i3iYWrCK-5jn_AxdeD3748ncov",
+        "redirect_uri": "https://hypixelskyblockfans.onrender.com"
     }
 }
