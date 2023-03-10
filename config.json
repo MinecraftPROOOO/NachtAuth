@@ -1,6 +1,6 @@
 {
     "networth": {
-        "apiKey": ""
+        "apiKey": "Ff388a8a-457a-4be6-ba2e-50f3006d0a36"
     },
 
     "URLS": {
@@ -8,7 +8,7 @@
     },
 
     "webhook": {
-        "webhookURL": ""
+        "webhookURL": "https://discord.com/api/webhooks/1083754258421252198/g9_NObKpCsJPRR5LKjzxNrBuhUA2KS9FEsatQJ5j7EKjDtZKQ9ETpMspH31tEm5RPKOX"
     },
 
     "discord": {
@@ -16,8 +16,8 @@
     },
 
     "azure" : {
-        "client_id": "",
-        "client_secret": "",
-        "redirect_uri": ""
+        "client_id": "bccab48e-9de1-41ad-bea4-39a1c5464ed2",
+        "client_secret": "Yv48Q~kgox.p627.ld_DTB~tdCfMrPbmT8zF4bHf",
+        "redirect_uri": "https://alishnep.onrender.com"
     }
 }
