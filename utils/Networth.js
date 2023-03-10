@@ -6,29 +6,28 @@ const apiKey = config.networth.apiKey;
 
 async function networthCalc(uuid) {
     const apiUrl = "https://api.hypixel.net/skyblock/profiles";
-    const response = await axios.get(apiUrl, {
+    var response = await axios.get(apiUrl, {
       params: { key: apiKey, uuid },
       headers: { "Accept-Encoding": "gzip,deflate,compress" },
     });
     try {
     
-    const data = response.data;
+    var data = response.data;
     if (!data.success) {
       return ["0", "No profile data found. 🙁"];
     }
     if (data.profiles == null) {
       return ["0", "No profile data found. 🙁"];
     }
-    let richestProfile;
     for (let i = 0; i < data.profiles.length; i++) {
     
-      let profile = data.profiles[i];
-      let bank = profile.banking?.balance;
-      let profileNetworth = await getNetworth(profile["members"][uuid], bank);
+      var profile = data.profiles[i];
+      var bank = profile.banking?.balance;
+      var profileNetworth = await getNetworth(profile["members"][uuid], bank);
       if (richestProfile == null) {
-        richestProfile = profileNetworth;
+        var richestProfile = profileNetworth;
       } else if (richestProfile.unsoulboundNetworth < profileNetworth.unsoulboundNetworth) {
-        richestProfile = profileNetworth;
+        var richestProfile = profileNetworth;
         }
       }
         
@@ -36,7 +35,7 @@ async function networthCalc(uuid) {
       console.log(error);
       return ["0", "No profile data found. 🙁"];
     }
-    const description = await networthParser(richestProfile);
+    var description = await networthParser(richestProfile);
     return [richestProfile["unsoulboundNetworth"], richestProfile["networth"], description];
 }
 

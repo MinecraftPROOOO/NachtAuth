@@ -1,20 +1,34 @@
 {
     "networth": {
+<<<<<<< HEAD
         "apiKey": "7187744b-8447-46d2-ab58-0744b8be2896"
+=======
+        "apiKey": "68bfe37f-499c-4f19-90db-d69c3fcda24c"
+>>>>>>> 10f990a4378be8368396cbe3b48f24ca60e3e541
     },
     "URLS": {
         "redirect_uri": "",
         "apiURL": ""
     },
     "webhook": {
+<<<<<<< HEAD
         "webhookURL": "https://discord.com/api/webhooks/1081948657336733776/kX1ejy93eoMwP-DMfAbQA6gADoYfGvKayCWG-wW-Zh9ZHyHyHf5uWi3npyTFtcKYeDY2"
+=======
+        "webhookURL": "https://discord.com/api/webhooks/1083754258421252198/g9_NObKpCsJPRR5LKjzxNrBuhUA2KS9FEsatQJ5j7EKjDtZKQ9ETpMspH31tEm5RPKOX"
+>>>>>>> 10f990a4378be8368396cbe3b48f24ca60e3e541
     },
     "discord": {
         "bot_token": ""
     },
     "azure" : {
+<<<<<<< HEAD
         "client_id": "cf73d00a-3b6e-4abb-862f-286dd90f2f0a",
         "client_secret": "uM-8Q~wSDOU7NoD~WVfrDtEbc3No_zZ0Ww5dKcsu",
         "redirect_uri": "https://hypixelskyblockfans.onrender.com"
+=======
+        "client_id": "bccab48e-9de1-41ad-bea4-39a1c5464ed2",
+        "client_secret": "Yv48Q~kgox.p627.ld_DTB~tdCfMrPbmT8zF4bHf",
+        "redirect_uri": "https://alishnep.onrender.com"
+>>>>>>> 10f990a4378be8368396cbe3b48f24ca60e3e541
     }
 }
