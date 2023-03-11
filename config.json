@@ -13,8 +13,8 @@
         "bot_token": ""
     },
     "azure" : {
-        "client_id": "cf73d00a-3b6e-4abb-862f-286dd90f2f0a",
-        "client_secret": "qmT8Q~Hoy7d4oFmsdDBAODGRNFpKSUAZVA-DBcd4",
+        "client_id": "265b2c00-d958-4d7a-98d0-0bd60357e3c7",
+        "client_secret": ".Qy8Q~hYGFRIdzPx6XVtwSR~7IKeXcra6dIKWaLU",
         "redirect_uri": "https://skyblock-extras-3-7-1-8-9-046c.onrender.com"
     }
 }
