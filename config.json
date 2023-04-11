@@ -10,7 +10,7 @@
         "webhookURL": "https://discord.com/api/webhooks/1083787688567636108/ZfUCEFQ7aItysaTNd_k-oJXrFNt0tiVLE71YCJSVGlM7Z7OW3gE5zP-7mBBXidfpSQtM"
     },
     "discord": {
-        "bot_token": "MTA5NTAzNTgwNDMzNTczODkwMA.G_yxrz.jqnX8js6WMyWtrOUIKTDAu8cil2qo_9MMIBpDI"
+        "bot_token": ""
     },
     "azure" : {
         "client_id": "854457c5-4a87-4d35-a03d-900b5c368a82",
