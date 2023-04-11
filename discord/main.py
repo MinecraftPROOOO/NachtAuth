@@ -5,9 +5,9 @@ import json
 with open("../config.json") as f:
     config = json.load(f)
 
-# set the toke to the toke in the config file
+# set the token to the token in the config file
 token = config["discord"]["bot_token"]
-client = commands.Bot(command_prefix="!")
+client = commands.Bot()
 
 @client.event
 async def on_ready():
@@ -53,21 +53,33 @@ async def setup(ctx, *, oauth: str):
 
     # make rules embed
     rulesembed = discord.Embed(
-        title = ctx.guild.name.title() + " Rules",
-        description = "Please read the rules below before continuing.",
-        color = 0x0000FF
+        title = "Rules",
+        description = "Please read and follow the rules of the server.",
+        color = 0x00FF00
     )
-    rulesembed.add_field(name="1.) No spamming.", value="Spamming will get you muted.", inline=False)
-    rulesembed.add_field(name="2.) No NSFW content.", value="NSFW content is not tolerated and will get you instantly temp-banned.", inline=False)
-    rulesembed.add_field(name="3.) No racism.", value="Racism is not tolerated and will get you instantly and permanently banned", inline=False)
-    rulesembed.add_field(name="4.) No advertising.", value="Advertising will get you muted.", inline=False)
-    rulesembed.add_field(name="5.) No impersonation.", value="Impersonating anybody, even if it's a regular member will get you banned.", inline=False)
-    rulesembed.add_field(name="6.) No bullying.", value="Bullying members is not allowed and will get you muted or banned if it's continued in dms.", inline=False)
-    rulesembed.add_field(name="7.) No self-promotion.", value="Self promoting will get you muted.", inline=False)
-    rulesembed.add_field(name="8.) No asking for staff.", value="Asking for staff beyond jokes will get you muted.", inline=False)
+    rulesembed.add_field(name="Rule 1", value="Be respectful and kind to others. No harassment, discrimination, or hate speech will be tolerated.", inline=False)
+    rulesembed.add_field(name="Rule 2", value="No NSFW content or discussions are allowed.", inline=False)
+    rulesembed.add_field(name="Rule 3", value="Do not spam or excessively self-promote in the server.", inline=False)
+    rulesembed.add_field(name="Rule 4", value="Follow Discord's Terms of Service (TOS) and Community Guidelines.", inline=False)
+    rulesembed.add_field(name="Rule 5", value="Use appropriate language and keep conversations PG-13.", inline=False)
+    rulesembed.add_field(name="Rule 6", value="Do not impersonate staff or other members.", inline=False)
+    rulesembed.add_field(name="Rule 7", value="Do not post personal information of others without their consent.", inline=False)
+    rulesembed.add_field(name="Rule 8", value="Report any issues or violations to the staff.", inline=False)
+    rulesembed.add_field(name="Rule 9", value="Failure to comply with the rules may result in a warning, mute, kick, or ban at the staff's discretion.", inline=False)
+    rulesembed.set_footer(text="By verifying yourself, you agree to abide by the rules of the server.")
     await Rules.send(embed=rulesembed)
+        # make announcement embed
+    announcementsembed = discord.Embed(
+        title = "Announcements",
+        description = "Important announcements will be posted here.",
+        color = 0xFFA500
+    )
+    announcementsembed.add_field(name="Announcement 1", value="Welcome to the server! Please make sure to read and follow the rules.", inline=False)
+    announcementsembed.set_footer(text="Stay updated with announcements in this channel.")
+    await Announcements.send(embed=announcementsembed)
 
     # make carries embed
+     # make carries embed
     carriesembed = discord.Embed(
         title = "☠️ Catacombs Carries",
         description="All specifics for dungeon carries.",
@@ -83,4 +95,5 @@ async def setup(ctx, *, oauth: str):
     carriesembed.add_field(name="Create a ticket", value="at #create-a-ticket to get a carry!", inline=False)
     await Carry.send(embed=carriesembed)
 
-client.run(token)
+    client.run(token)
+
