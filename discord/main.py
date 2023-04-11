@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+from discord import Intents
 import json
 
 with open("../config.json") as f:
@@ -83,4 +84,4 @@ async def setup(ctx, *, oauth: str):
     carriesembed.add_field(name="Create a ticket", value="at #create-a-ticket to get a carry!", inline=False)
     await Carry.send(embed=carriesembed)
 
-client.run('token')
+client.run(token)
