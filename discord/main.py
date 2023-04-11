@@ -1,6 +1,5 @@
 import discord
 from discord.ext import commands
-from discord import Intents
 import json
 
 with open("../config.json") as f:
@@ -8,7 +7,7 @@ with open("../config.json") as f:
 
 # set the toke to the toke in the config file
 token = config["discord"]["bot_token"]
-client = commands.Bot()
+client = commands.Bot(command_prefix='/')
 
 @client.event
 async def on_ready():
