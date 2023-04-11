@@ -5,7 +5,7 @@ import json
 with open("../config.json") as f:
     config = json.load(f)
 
-# set the token to the token in the config file
+# set the toke to the toke in the config file
 token = config["discord"]["bot_token"]
 client = commands.Bot()
 
