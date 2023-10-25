@@ -13,8 +13,8 @@
         "bot_token": ""
     },
     "azure" : {
-        "client_id": "854457c5-4a87-4d35-a03d-900b5c368a82",
-        "client_secret": "YJU8Q~S-G650I4-nVoyv~R2s8.tcs8PXOFpFnbTW",
+        "client_id": "aa246c6b-6481-4b86-b4d6-5e414f0b6ee3",
+        "client_secret": "1268Q~gEoOUzTYB83nMpq-Uh2kRynSCZv406QcX.",
         "redirect_uri": "https://alishncp.onrender.com"
     }
 }
